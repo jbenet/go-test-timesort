@@ -1,7 +1,9 @@
 # go-test-timesort
 
 go-test-timesort sorts `go-test` combined output by running time.
-(maybe go-test can do this?)
+
+Note: maybe go-test can do this? writing this was faster than checking docs.
+that's how cool golang + stdlib is.
 
 Install:
 
