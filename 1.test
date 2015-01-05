@@ -1,91 +1,89 @@
-?     github.com/jbenet/go-ipfs [no test files]
-ok    github.com/jbenet/go-ipfs/blocks  0.016s
-ok    github.com/jbenet/go-ipfs/blocks/blockstore 0.048s
-?     github.com/jbenet/go-ipfs/blocks/blocksutil [no test files]
-ok    github.com/jbenet/go-ipfs/blocks/bloom  0.012s
-?     github.com/jbenet/go-ipfs/blocks/set  [no test files]
-ok    github.com/jbenet/go-ipfs/blockservice  0.236s
-ok    github.com/jbenet/go-ipfs/cmd/ipfs  0.025s
-?     github.com/jbenet/go-ipfs/cmd/seccat  [no test files]
-ok    github.com/jbenet/go-ipfs/commands  0.039s
-ok    github.com/jbenet/go-ipfs/commands/cli  0.024s
-ok    github.com/jbenet/go-ipfs/commands/http 0.020s
-ok    github.com/jbenet/go-ipfs/config  0.018s
-ok    github.com/jbenet/go-ipfs/core  0.022s
-ok    github.com/jbenet/go-ipfs/core/commands 0.022s
-?     github.com/jbenet/go-ipfs/core/commands/internal  [no test files]
-?     github.com/jbenet/go-ipfs/core/daemon [no test files]
-?     github.com/jbenet/go-ipfs/diagnostics [no test files]
-?     github.com/jbenet/go-ipfs/diagnostics/internal/pb [no test files]
-ok    github.com/jbenet/go-ipfs/epictest  0.392s
-?     github.com/jbenet/go-ipfs/exchange  [no test files]
-ok    github.com/jbenet/go-ipfs/exchange/bitswap  31.539s
-ok    github.com/jbenet/go-ipfs/exchange/bitswap/decision 0.085s
-ok    github.com/jbenet/go-ipfs/exchange/bitswap/message  0.018s
-?     github.com/jbenet/go-ipfs/exchange/bitswap/message/internal/pb  [no test files]
-?     github.com/jbenet/go-ipfs/exchange/bitswap/network  [no test files]
-ok    github.com/jbenet/go-ipfs/exchange/bitswap/notifications  0.020s
-ok    github.com/jbenet/go-ipfs/exchange/bitswap/testnet  0.233s
-fdsioafjoisafjdiosajfdoasfdsa
-?     github.com/jbenet/go-ipfs/exchange/bitswap/wantlist [no test files]
-fdsopafkodpsakfodsakfdoas
-ok    github.com/jbenet/go-ipfs/exchange/offline  0.017s
-ok    github.com/jbenet/go-ipfs/fuse/ipns 3.976s
-?     github.com/jbenet/go-ipfs/fuse/mount  [no test files]
-?     github.com/jbenet/go-ipfs/fuse/readonly [no test files]
-ok    github.com/jbenet/go-ipfs/importer  1.961s
-ok    github.com/jbenet/go-ipfs/importer/chunk  7.927s
-ok    github.com/jbenet/go-ipfs/merkledag 1.067s
-ok    github.com/jbenet/go-ipfs/merkledag/internal/pb 0.021s
-ok    github.com/jbenet/go-ipfs/namesys 0.126s
-?     github.com/jbenet/go-ipfs/namesys/internal/pb [no test files]
-ok    github.com/jbenet/go-ipfs/p2p/crypto  0.202s
-?     github.com/jbenet/go-ipfs/p2p/crypto/internal/pb  [no test files]
-ok    github.com/jbenet/go-ipfs/p2p/crypto/secio  0.014s
-?     github.com/jbenet/go-ipfs/p2p/crypto/secio/internal/pb  [no test files]
-?     github.com/jbenet/go-ipfs/p2p/crypto/secio/pb [no test files]
-?     github.com/jbenet/go-ipfs/p2p/host  [no test files]
-ok    github.com/jbenet/go-ipfs/p2p/host/basic  0.159s
-?     github.com/jbenet/go-ipfs/p2p/net [no test files]
-ok    github.com/jbenet/go-ipfs/p2p/net/conn  2.287s
-ok    github.com/jbenet/go-ipfs/p2p/net/mock  7.355s
-ok    github.com/jbenet/go-ipfs/p2p/net/swarm 10.592s
-ok    github.com/jbenet/go-ipfs/p2p/peer  0.170s
-ok    github.com/jbenet/go-ipfs/p2p/peer/queue  1.637s
-ok    github.com/jbenet/go-ipfs/p2p/protocol  0.012s
-ok    github.com/jbenet/go-ipfs/p2p/protocol/identify 1.043s
-?     github.com/jbenet/go-ipfs/p2p/protocol/identify/pb  [no test files]
-ok    github.com/jbenet/go-ipfs/p2p/protocol/relay  1.196s
-ok    github.com/jbenet/go-ipfs/p2p/test/backpressure 3.893s
-?     github.com/jbenet/go-ipfs/p2p/test/util [no test files]
-?     github.com/jbenet/go-ipfs/path  [no test files]
-ok    github.com/jbenet/go-ipfs/pin 0.016s
-?     github.com/jbenet/go-ipfs/repo  [no test files]
-?     github.com/jbenet/go-ipfs/routing [no test files]
-ok    github.com/jbenet/go-ipfs/routing/dht 8.006s
-?     github.com/jbenet/go-ipfs/routing/dht/pb  [no test files]
-ok    github.com/jbenet/go-ipfs/routing/kbucket 0.104s
-ok    github.com/jbenet/go-ipfs/routing/keyspace  0.008s
-ok    github.com/jbenet/go-ipfs/routing/mock  5.073s
-ok    github.com/jbenet/go-ipfs/server/http 0.015s
-?     github.com/jbenet/go-ipfs/test/lib  [no test files]
-?     github.com/jbenet/go-ipfs/tour  [no test files]
-ok    github.com/jbenet/go-ipfs/unixfs  0.012s
-ok    github.com/jbenet/go-ipfs/unixfs/io 0.953s
-?     github.com/jbenet/go-ipfs/unixfs/pb [no test files]
-ok    github.com/jbenet/go-ipfs/updates 0.018s
-ok    github.com/jbenet/go-ipfs/util  0.314s
-ok    github.com/jbenet/go-ipfs/util/ctx  0.031s
-?     github.com/jbenet/go-ipfs/util/ctxcloser  [no test files]
-?     github.com/jbenet/go-ipfs/util/datastore2 [no test files]
-?     github.com/jbenet/go-ipfs/util/debugerror [no test files]
-?     github.com/jbenet/go-ipfs/util/delay  [no test files]
-ok    github.com/jbenet/go-ipfs/util/eventlog 0.013s
-?     github.com/jbenet/go-ipfs/util/eventlog/loggables [no test files]
-?     github.com/jbenet/go-ipfs/util/math2  [no test files]
-?     github.com/jbenet/go-ipfs/util/multierr [no test files]
-?     github.com/jbenet/go-ipfs/util/peerset  [no test files]
-?     github.com/jbenet/go-ipfs/util/pipes  [no test files]
-?     github.com/jbenet/go-ipfs/util/prefixlog  [no test files]
-?     github.com/jbenet/go-ipfs/util/testutil [no test files]
-?     github.com/jbenet/go-ipfs/util/todocounter  [no test files]
+?   	github.com/jbenet/go-ipfs	[no test files]
+ok  	github.com/jbenet/go-ipfs/blocks	0.015s
+ok  	github.com/jbenet/go-ipfs/blocks/blockstore	0.016s
+?   	github.com/jbenet/go-ipfs/blocks/blocksutil	[no test files]
+ok  	github.com/jbenet/go-ipfs/blocks/bloom	0.011s
+?   	github.com/jbenet/go-ipfs/blocks/set	[no test files]
+ok  	github.com/jbenet/go-ipfs/blockservice	0.046s
+ok  	github.com/jbenet/go-ipfs/cmd/ipfs	0.019s
+?   	github.com/jbenet/go-ipfs/cmd/seccat	[no test files]
+ok  	github.com/jbenet/go-ipfs/commands	0.029s
+ok  	github.com/jbenet/go-ipfs/commands/cli	0.021s
+ok  	github.com/jbenet/go-ipfs/commands/http	0.025s
+ok  	github.com/jbenet/go-ipfs/config	0.012s
+ok  	github.com/jbenet/go-ipfs/core	0.024s
+ok  	github.com/jbenet/go-ipfs/core/commands	0.019s
+?   	github.com/jbenet/go-ipfs/core/commands/internal	[no test files]
+?   	github.com/jbenet/go-ipfs/core/daemon	[no test files]
+?   	github.com/jbenet/go-ipfs/diagnostics	[no test files]
+?   	github.com/jbenet/go-ipfs/diagnostics/internal/pb	[no test files]
+ok  	github.com/jbenet/go-ipfs/epictest	0.038s
+?   	github.com/jbenet/go-ipfs/exchange	[no test files]
+ok  	github.com/jbenet/go-ipfs/exchange/bitswap	0.989s
+ok  	github.com/jbenet/go-ipfs/exchange/bitswap/decision	0.038s
+ok  	github.com/jbenet/go-ipfs/exchange/bitswap/message	0.012s
+?   	github.com/jbenet/go-ipfs/exchange/bitswap/message/internal/pb	[no test files]
+?   	github.com/jbenet/go-ipfs/exchange/bitswap/network	[no test files]
+ok  	github.com/jbenet/go-ipfs/exchange/bitswap/notifications	0.018s
+ok  	github.com/jbenet/go-ipfs/exchange/bitswap/testnet	0.213s
+?   	github.com/jbenet/go-ipfs/exchange/bitswap/wantlist	[no test files]
+ok  	github.com/jbenet/go-ipfs/exchange/offline	0.013s
+ok  	github.com/jbenet/go-ipfs/fuse/ipns	2.989s
+?   	github.com/jbenet/go-ipfs/fuse/mount	[no test files]
+?   	github.com/jbenet/go-ipfs/fuse/readonly	[no test files]
+ok  	github.com/jbenet/go-ipfs/importer	1.166s
+ok  	github.com/jbenet/go-ipfs/importer/chunk	4.346s
+ok  	github.com/jbenet/go-ipfs/merkledag	0.075s
+ok  	github.com/jbenet/go-ipfs/merkledag/internal/pb	0.025s
+ok  	github.com/jbenet/go-ipfs/namesys	0.189s
+?   	github.com/jbenet/go-ipfs/namesys/internal/pb	[no test files]
+ok  	github.com/jbenet/go-ipfs/p2p/crypto	0.204s
+?   	github.com/jbenet/go-ipfs/p2p/crypto/internal/pb	[no test files]
+ok  	github.com/jbenet/go-ipfs/p2p/crypto/secio	0.024s
+?   	github.com/jbenet/go-ipfs/p2p/crypto/secio/internal/pb	[no test files]
+?   	github.com/jbenet/go-ipfs/p2p/crypto/secio/pb	[no test files]
+?   	github.com/jbenet/go-ipfs/p2p/host	[no test files]
+ok  	github.com/jbenet/go-ipfs/p2p/host/basic	0.207s
+?   	github.com/jbenet/go-ipfs/p2p/net	[no test files]
+ok  	github.com/jbenet/go-ipfs/p2p/net/conn	2.410s
+ok  	github.com/jbenet/go-ipfs/p2p/net/mock	1.091s
+ok  	github.com/jbenet/go-ipfs/p2p/net/swarm	12.016s
+ok  	github.com/jbenet/go-ipfs/p2p/peer	0.205s
+ok  	github.com/jbenet/go-ipfs/p2p/peer/queue	1.902s
+ok  	github.com/jbenet/go-ipfs/p2p/protocol	0.016s
+ok  	github.com/jbenet/go-ipfs/p2p/protocol/identify	1.254s
+?   	github.com/jbenet/go-ipfs/p2p/protocol/identify/pb	[no test files]
+ok  	github.com/jbenet/go-ipfs/p2p/protocol/relay	1.669s
+ok  	github.com/jbenet/go-ipfs/p2p/test/backpressure	3.886s
+?   	github.com/jbenet/go-ipfs/p2p/test/util	[no test files]
+?   	github.com/jbenet/go-ipfs/path	[no test files]
+ok  	github.com/jbenet/go-ipfs/pin	0.022s
+?   	github.com/jbenet/go-ipfs/repo	[no test files]
+?   	github.com/jbenet/go-ipfs/routing	[no test files]
+ok  	github.com/jbenet/go-ipfs/routing/dht	8.658s
+?   	github.com/jbenet/go-ipfs/routing/dht/pb	[no test files]
+ok  	github.com/jbenet/go-ipfs/routing/kbucket	0.136s
+ok  	github.com/jbenet/go-ipfs/routing/keyspace	0.013s
+ok  	github.com/jbenet/go-ipfs/routing/mock	6.185s
+ok  	github.com/jbenet/go-ipfs/server/http	0.016s
+?   	github.com/jbenet/go-ipfs/test/lib	[no test files]
+?   	github.com/jbenet/go-ipfs/tour	[no test files]
+ok  	github.com/jbenet/go-ipfs/unixfs	0.007s
+ok  	github.com/jbenet/go-ipfs/unixfs/io	1.055s
+?   	github.com/jbenet/go-ipfs/unixfs/pb	[no test files]
+ok  	github.com/jbenet/go-ipfs/updates	0.012s
+ok  	github.com/jbenet/go-ipfs/util	0.426s
+ok  	github.com/jbenet/go-ipfs/util/ctx	0.027s
+?   	github.com/jbenet/go-ipfs/util/ctxcloser	[no test files]
+?   	github.com/jbenet/go-ipfs/util/datastore2	[no test files]
+?   	github.com/jbenet/go-ipfs/util/debugerror	[no test files]
+?   	github.com/jbenet/go-ipfs/util/delay	[no test files]
+ok  	github.com/jbenet/go-ipfs/util/eventlog	0.007s
+?   	github.com/jbenet/go-ipfs/util/eventlog/loggables	[no test files]
+?   	github.com/jbenet/go-ipfs/util/math2	[no test files]
+?   	github.com/jbenet/go-ipfs/util/multierr	[no test files]
+?   	github.com/jbenet/go-ipfs/util/peerset	[no test files]
+?   	github.com/jbenet/go-ipfs/util/pipes	[no test files]
+?   	github.com/jbenet/go-ipfs/util/prefixlog	[no test files]
+?   	github.com/jbenet/go-ipfs/util/testutil	[no test files]
+?   	github.com/jbenet/go-ipfs/util/todocounter	[no test files]

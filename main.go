@@ -37,9 +37,9 @@ func sortLines(lines []string) []string {
 
 	for _, l := range lines {
 		switch {
-		case strings.HasPrefix(l, "?     "):
+		case strings.HasPrefix(l, "?   \t"):
 			ul = append(ul, l)
-		case strings.HasPrefix(l, "ok    "):
+		case strings.HasPrefix(l, "ok  \t"):
 			sl = append(sl, l)
 		default: // garbage. discard it.
 		}
@@ -94,7 +94,7 @@ func (p TestLines) Duration(i int) time.Duration {
 }
 
 func TestLineDuration(l string) (time.Duration, error) {
-	tsi := strings.LastIndex(l, " ")
+	tsi := strings.LastIndex(l, "\t")
 	if tsi < 0 {
 		return 0, fmt.Errorf("invalid test line: %s", l)
 	}
